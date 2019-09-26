@@ -15,6 +15,6 @@ Sequence-to-sequence (seq2seq) models ([Sutskever et al.](https://papers.nips.cc
 - os
 
 ## Download
-- Datasets
-- pretrained model for embedding
+- [Datasets](https://github.com/ankitgc1/Chatbot-in-tensorflow/tree/master/data)
+- [pretrained model for embedding](https://www.kaggle.com/terenceliu4444/glove6b100dtxt)
 
