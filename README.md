@@ -20,7 +20,7 @@ Sequence-to-sequence (seq2seq) models ([Sutskever et al.](https://papers.nips.cc
 - [Datasets](https://github.com/ankitgc1/Chatbot-in-tensorflow/tree/master/data)
 - [pretrained model for embedding](https://www.kaggle.com/terenceliu4444/glove6b100dtxt)
 
-### Deskcription:- 
+### Description:- 
 
 The [Chatbot.py](https://github.com/ankitgc1/Chatbot-in-tensorflow/blob/master/chatbot.py) have Data preprocessing, Word embedding, Training, Evolution all the parts. I trained for three days on RTX2080ti on my own collected dataset and the results are pretty good. Change the parameter according to your machine configuration.  The seq2seq model used the GRU(Gated recurrent unit) layer. For the word embedding layer glove.6B.100d model is being used. After that encoder's output pass to the decoder. "Teacher forcing algorithm" - feeding the target as the next input. For the prediction "Greedy search algorithm" is being used.
 
